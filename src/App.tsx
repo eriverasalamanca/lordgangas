@@ -4,7 +4,7 @@ import './App.css';
 
 // Componentes
 import Hero from './components/Hero';
-import AdsCarousel from './components/AdsCarousel';
+import Carousel from './components/Carousel';
 import Recommended from './components/Recommended';
 import Social from './components/Social';
 import Education from './components/Education';
@@ -36,7 +36,7 @@ function App() {
 
         <div className="container">
           <div className="section">
-            <AdsCarousel />
+            <Carousel />
           </div>
 
           <div className="section">

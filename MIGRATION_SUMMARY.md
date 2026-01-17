@@ -53,7 +53,7 @@ src/
 - Botones CTA que hacen scroll suave
 - Badges animados
 
-### 2. **AdsCarousel Component** (`AdsCarousel.tsx`)
+### 2. **Carousel Component** (`Carousel.tsx`)
 - Carousel horizontal con snap scroll
 - Auto-scroll cada 4.5 segundos
 - Navegación con flechas
@@ -108,9 +108,9 @@ Cada componente tiene su CSS modular:
 
 ```
 styles/
-├── globals.css        - Variables, animaciones, clases base
+├── globals.css       - Variables, animaciones, clases base
 ├── Hero.css          - Estilos hero
-├── AdsCarousel.css   - Estilos carousel
+├── Carousel.css      - Estilos carousel
 ├── Social.css        - Estilos redes sociales
 ├── Education.css     - Estilos educación
 ├── WhatsApp.css      - Estilos WhatsApp
@@ -272,7 +272,7 @@ src/
 - Botones CTA que hacen scroll suave
 - Badges animados
 
-### 2. **AdsCarousel Component** (`AdsCarousel.tsx`)
+### 2. **Carousel Component** (`Carousel.tsx`)
 - Carousel horizontal con snap scroll
 - Auto-scroll cada 4.5 segundos
 - Navegación con flechas
@@ -329,7 +329,7 @@ Cada componente tiene su CSS modular:
 styles/
 ├── globals.css        - Variables, animaciones, clases base
 ├── Hero.css          - Estilos hero
-├── AdsCarousel.css   - Estilos carousel
+├── Carousel.css   - Estilos carousel
 ├── Social.css        - Estilos redes sociales
 ├── Education.css     - Estilos educación
 ├── WhatsApp.css      - Estilos WhatsApp

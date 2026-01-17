@@ -55,7 +55,7 @@ Tu sitio web **HTML estático** de **1600+ líneas** ha sido **completamente mig
 - Parallax en mousemove
 - Animaciones suaves
 
-### 2. AdsCarousel.tsx (Carousel de Anuncios)
+### 2. Carousel.tsx (Carousel de Anuncios)
 - 7 Tarjetas de anuncios
 - Auto-scroll cada 4.5s
 - Navegación manual (flechas)
@@ -402,7 +402,7 @@ Tu sitio web **HTML estático** de **1600+ líneas** ha sido **completamente mig
 - Parallax en mousemove
 - Animaciones suaves
 
-### 2. AdsCarousel.tsx (Carousel de Anuncios)
+### 2. Carousel.tsx (Carousel de Anuncios)
 - 7 Tarjetas de anuncios
 - Auto-scroll cada 4.5s
 - Navegación manual (flechas)

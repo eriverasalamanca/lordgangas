@@ -40,7 +40,7 @@ const Hero: React.FC = () => {
           <div>💰 Mejor Precio Garantizado</div>
         </div>
         <div className="hero-cta">
-          <button className="btn btn-primary" onClick={() => scrollToSection('.ads-section')}>
+          <button className="btn btn-primary" onClick={() => scrollToSection('.mas-section')}>
             Explorar Ofertas
           </button>
           <button

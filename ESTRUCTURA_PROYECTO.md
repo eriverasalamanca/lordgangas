@@ -23,7 +23,7 @@ c:\Users\kemie\OneDrive\Desktop\Lord Gangas\WebLG
 ├── 📁 src/                          ← Código fuente
 │   ├── 📁 components/               ← 8 Componentes React
 │   │   ├── Hero.tsx                 (Banner principal)
-│   │   ├── AdsCarousel.tsx          (Carousel anuncios)
+│   │   ├── Carousel.tsx             (Carousel anuncios)
 │   │   ├── Social.tsx               (Redes sociales)
 │   │   ├── Education.tsx            (Cursos)
 │   │   ├── WhatsApp.tsx             (Grupo VIP)
@@ -35,7 +35,7 @@ c:\Users\kemie\OneDrive\Desktop\Lord Gangas\WebLG
 │   ├── 📁 styles/                   ← CSS Modular
 │   │   ├── globals.css              (Base + animaciones)
 │   │   ├── Hero.css
-│   │   ├── AdsCarousel.css
+│   │   ├── Carousel.css
 │   │   ├── Social.css
 │   │   ├── Education.css
 │   │   ├── WhatsApp.css
@@ -95,9 +95,9 @@ c:\Users\kemie\OneDrive\Desktop\Lord Gangas\WebLG
                │
     ┌──────────┼──────────┐
     ↓          ↓          ↓
-┌────────┐┌────────┐┌────────┐
-│ Hero   ││  Ads   ││ Social │
-└────────┘└────────┘└────────┘
+┌────────┐┌──────────┐┌────────┐
+│ Hero   ││Destacados││ Social │
+└────────┘└──────────┘└────────┘
     ↓          ↓          ↓
 ┌────────┐┌────────┐┌────────┐
 │  Edu   ││WhatsApp││Features│
@@ -123,9 +123,9 @@ c:\Users\kemie\OneDrive\Desktop\Lord Gangas\WebLG
 └── Buttons (4 CTA)
 ```
 
-### 2. AdsCarousel Component
+### 2. Carousel Component
 ```jsx
-<AdsCarousel />
+<Carousel />
 ├── Título sección
 ├── Descripción
 ├── Navegación (flechas)
@@ -303,7 +303,7 @@ npm version: 8+
 5. Componentes se renderizan en orden:
    ├── FloatingParticles (partículas)
    ├── Hero
-   ├── AdsCarousel
+   ├── Carousel
    ├── Education (dentro de section)
    ├── Social
    ├── WhatsApp
@@ -447,7 +447,7 @@ c:\Users\kemie\OneDrive\Desktop\Lord Gangas\WebLG
 ├── 📁 src/                          ← Código fuente
 │   ├── 📁 components/               ← 8 Componentes React
 │   │   ├── Hero.tsx                 (Banner principal)
-│   │   ├── AdsCarousel.tsx          (Carousel anuncios)
+│   │   ├── Carousel.tsx             (Carousel anuncios)
 │   │   ├── Social.tsx               (Redes sociales)
 │   │   ├── Education.tsx            (Cursos)
 │   │   ├── WhatsApp.tsx             (Grupo VIP)
@@ -459,7 +459,7 @@ c:\Users\kemie\OneDrive\Desktop\Lord Gangas\WebLG
 │   ├── 📁 styles/                   ← CSS Modular
 │   │   ├── globals.css              (Base + animaciones)
 │   │   ├── Hero.css
-│   │   ├── AdsCarousel.css
+│   │   ├── Carousel.css
 │   │   ├── Social.css
 │   │   ├── Education.css
 │   │   ├── WhatsApp.css
@@ -519,9 +519,9 @@ c:\Users\kemie\OneDrive\Desktop\Lord Gangas\WebLG
                │
     ┌──────────┼──────────┐
     ↓          ↓          ↓
-┌────────┐┌────────┐┌────────┐
-│ Hero   ││  Ads   ││ Social │
-└────────┘└────────┘└────────┘
+┌────────┐┌──────────┐┌────────┐
+│ Hero   ││Destacados││ Social │
+└────────┘└──────────┘└────────┘
     ↓          ↓          ↓
 ┌────────┐┌────────┐┌────────┐
 │  Edu   ││WhatsApp││Features│
@@ -547,9 +547,9 @@ c:\Users\kemie\OneDrive\Desktop\Lord Gangas\WebLG
 └── Buttons (4 CTA)
 ```
 
-### 2. AdsCarousel Component
+### 2. Carousel Component
 ```jsx
-<AdsCarousel />
+<Carousel />
 ├── Título sección
 ├── Descripción
 ├── Navegación (flechas)
@@ -727,7 +727,7 @@ npm version: 8+
 5. Componentes se renderizan en orden:
    ├── FloatingParticles (partículas)
    ├── Hero
-   ├── AdsCarousel
+   ├── Carousel
    ├── Education (dentro de section)
    ├── Social
    ├── WhatsApp

@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import '../styles/AdsCarousel.css';
+import '../styles/Carousel.css';
 
 interface AdCard {
   id: number;
@@ -9,7 +9,7 @@ interface AdCard {
   tooltip?: string;
 }
 
-const AdsCarousel: React.FC = () => {
+const Carousel: React.FC = () => {
   const carouselRef = useRef<HTMLDivElement>(null);
   const trackRef = useRef<HTMLDivElement>(null);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -121,23 +121,23 @@ const AdsCarousel: React.FC = () => {
   };
 
   return (
-    <section className="ads-section">
-      <h2 className="section-title">🧠 Anuncios Destacados de la Comunidad</h2>
-      <p className="ads-subtitle">
+    <section className="mas-section">
+      <h2 className="section-title">🧠 Destacados de la Comunidad</h2>
+      <p className="mas-subtitle">
         Negocios, marcas y emprendedores que crecen con Lord Gangas
       </p>
 
-      <div className="ads-wrapper">
+      <div className="mas-wrapper">
         <button
-          className="ads-arrow left"
+          className="mas-arrow left"
           onClick={() => handleScroll('left')}
           aria-label="Anterior"
         >
           ❮
         </button>
 
-        <div className="ads-carousel" ref={carouselRef}>
-          <div className="ads-track" ref={trackRef}>
+        <div className="mas-carousel" ref={carouselRef}>
+          <div className="mas-track" ref={trackRef}>
             {adCards.map((card, index) => (
               <a
                 key={card.id}
@@ -155,7 +155,7 @@ const AdsCarousel: React.FC = () => {
         </div>
 
         <button
-          className="ads-arrow right"
+          className="mas-arrow right"
           onClick={() => handleScroll('right')}
           aria-label="Siguiente"
         >
@@ -166,4 +166,4 @@ const AdsCarousel: React.FC = () => {
   );
 };
 
-export default AdsCarousel;
+export default Carousel;

@@ -48,7 +48,7 @@ http://localhost:5173
 | Componente | Archivo | Función |
 |-----------|---------|---------|
 | Hero | `Hero.tsx` | Banner principal con animaciones |
-| Ads | `AdsCarousel.tsx` | Carousel de anuncios |
+| Mas  | `Carousel.tsx` | Carousel de anuncios |
 | Redes | `Social.tsx` | Tarjetas de redes sociales |
 | Educación | `Education.tsx` | Cursos y recursos |
 | WhatsApp | `WhatsApp.tsx` | Grupo VIP con QR |
@@ -201,17 +201,17 @@ http://localhost:5173
 
 ## 🎨 Componentes Principales
 
-| Componente | Archivo | Función |
-|-----------|---------|---------|
-| Hero | `Hero.tsx` | Banner principal con animaciones |
-| Ads | `AdsCarousel.tsx` | Carousel de anuncios |
-| Redes | `Social.tsx` | Tarjetas de redes sociales |
-| Educación | `Education.tsx` | Cursos y recursos |
-| WhatsApp | `WhatsApp.tsx` | Grupo VIP con QR |
-| Features | `Features.tsx` | Características principales |
-| Partners | `Partners.tsx` | Socios y alianzas |
-| CTA | `CTA.tsx` | Llamada a acción |
-| Footer | `Footer.tsx` | Pie de página |
+| Componente | Archivo          | Función                           |
+|-----------|-------------------|-----------------------------------|
+| Hero      | `Hero.tsx`        | Banner principal con animaciones  |
+| Mas       | `Carousel.tsx`    | Carousel de anuncios              |
+| Redes     | `Social.tsx`      | Tarjetas de redes sociales        |
+| Educación | `Education.tsx`   | Cursos y recursos                 |
+| WhatsApp  | `WhatsApp.tsx`    | Grupo VIP con QR                  |
+| Features  | `Features.tsx`    | Características principales       |
+| Partners  | `Partners.tsx`    | Socios y alianzas                 |
+| CTA       | `CTA.tsx`         | Llamada a acción                  |
+| Footer    | `Footer.tsx`      | Pie de página                     |
 
 ## 📝 ¿Cómo Modificar?
 

@@ -14,7 +14,7 @@ He migrado completamente tu sitio web HTML estático de **Lord Gangas** a una **
 ```
 ✅ 8 Componentes React:
    ├─ Hero.tsx              (Banner principal)
-   ├─ AdsCarousel.tsx       (Carousel de anuncios)
+   ├─ Carousel.tsx       (Carousel de anuncios)
    ├─ Social.tsx            (Redes sociales)
    ├─ Education.tsx         (Cursos y educación)
    ├─ WhatsApp.tsx          (Grupo VIP)
@@ -26,7 +26,7 @@ He migrado completamente tu sitio web HTML estático de **Lord Gangas** a una **
 ✅ 9 Archivos CSS Modular:
    ├─ globals.css           (Base de estilos)
    ├─ Hero.css
-   ├─ AdsCarousel.css
+   ├─ Carousel.css
    ├─ Social.css
    ├─ Education.css
    ├─ WhatsApp.css
@@ -79,7 +79,7 @@ c:\Users\kemie\OneDrive\Desktop\Lord Gangas\WebLG
 ├── src/
 │   ├── components/
 │   │   ├── Hero.tsx
-│   │   ├── AdsCarousel.tsx
+│   │   ├── Carousel.tsx
 │   │   ├── Social.tsx
 │   │   ├── Education.tsx
 │   │   ├── WhatsApp.tsx
@@ -91,7 +91,7 @@ c:\Users\kemie\OneDrive\Desktop\Lord Gangas\WebLG
 │   ├── styles/
 │   │   ├── globals.css
 │   │   ├── Hero.css
-│   │   ├── AdsCarousel.css
+│   │   ├── Carousel.css
 │   │   ├── Social.css
 │   │   ├── Education.css
 │   │   ├── WhatsApp.css
@@ -169,7 +169,7 @@ Componente de bienvenida con:
 - 4 botones CTA
 - Parallax en mousemove
 
-### 2. AdsCarousel
+### 2. Carousel
 Slider de anuncios con:
 - Auto-scroll cada 4.5s
 - Navegación manual
@@ -343,7 +343,7 @@ He migrado completamente tu sitio web HTML estático de **Lord Gangas** a una **
 ```
 ✅ 8 Componentes React:
    ├─ Hero.tsx              (Banner principal)
-   ├─ AdsCarousel.tsx       (Carousel de anuncios)
+   ├─ Carousel.tsx       (Carousel de anuncios)
    ├─ Social.tsx            (Redes sociales)
    ├─ Education.tsx         (Cursos y educación)
    ├─ WhatsApp.tsx          (Grupo VIP)
@@ -355,7 +355,7 @@ He migrado completamente tu sitio web HTML estático de **Lord Gangas** a una **
 ✅ 9 Archivos CSS Modular:
    ├─ globals.css           (Base de estilos)
    ├─ Hero.css
-   ├─ AdsCarousel.css
+   ├─ Carousel.css
    ├─ Social.css
    ├─ Education.css
    ├─ WhatsApp.css
@@ -408,7 +408,7 @@ c:\Users\kemie\OneDrive\Desktop\Lord Gangas\WebLG
 ├── src/
 │   ├── components/
 │   │   ├── Hero.tsx
-│   │   ├── AdsCarousel.tsx
+│   │   ├── Carousel.tsx
 │   │   ├── Social.tsx
 │   │   ├── Education.tsx
 │   │   ├── WhatsApp.tsx
@@ -420,7 +420,7 @@ c:\Users\kemie\OneDrive\Desktop\Lord Gangas\WebLG
 │   ├── styles/
 │   │   ├── globals.css
 │   │   ├── Hero.css
-│   │   ├── AdsCarousel.css
+│   │   ├── Carousel.css
 │   │   ├── Social.css
 │   │   ├── Education.css
 │   │   ├── WhatsApp.css
@@ -498,7 +498,7 @@ Componente de bienvenida con:
 - 4 botones CTA
 - Parallax en mousemove
 
-### 2. AdsCarousel
+### 2. Carousel
 Slider de anuncios con:
 - Auto-scroll cada 4.5s
 - Navegación manual

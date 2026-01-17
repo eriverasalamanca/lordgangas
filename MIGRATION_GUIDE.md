@@ -23,7 +23,7 @@ Bienvenido a la versión React migrada del sitio web Lord Gangas. Este proyecto 
 src/
 ├── components/
 │   ├── Hero.tsx           # Banner principal
-│   ├── AdsCarousel.tsx    # Carousel de anuncios
+│   ├─Carousel.tsx         # Carousel de anuncios
 │   ├── Social.tsx         # Tarjetas de redes sociales
 │   ├── Education.tsx      # Sección educativa
 │   ├── WhatsApp.tsx       # Sección VIP WhatsApp
@@ -34,7 +34,7 @@ src/
 ├── styles/
 │   ├── globals.css        # Estilos globales
 │   ├── Hero.css
-│   ├── AdsCarousel.css
+│   ├── Carousel.css
 │   ├── Social.css
 │   ├── Education.css
 │   ├── WhatsApp.css
@@ -84,7 +84,7 @@ http://localhost:5173
 - Botones CTA (Call-to-Action)
 - Efectos parallax en mousemove
 
-### AdsCarousel Component
+### Carousel Component
 - Scroll horizontal automático
 - Controles de navegación (flechas)
 - Tarjetas con efecto blur/scale
@@ -207,7 +207,7 @@ Bienvenido a la versión React migrada del sitio web Lord Gangas. Este proyecto 
 src/
 ├── components/
 │   ├── Hero.tsx           # Banner principal
-│   ├── AdsCarousel.tsx    # Carousel de anuncios
+│   ├── Carousel.tsx       # Carousel de anuncios
 │   ├── Social.tsx         # Tarjetas de redes sociales
 │   ├── Education.tsx      # Sección educativa
 │   ├── WhatsApp.tsx       # Sección VIP WhatsApp
@@ -218,7 +218,7 @@ src/
 ├── styles/
 │   ├── globals.css        # Estilos globales
 │   ├── Hero.css
-│   ├── AdsCarousel.css
+│   ├── Carousel.css
 │   ├── Social.css
 │   ├── Education.css
 │   ├── WhatsApp.css
@@ -268,7 +268,7 @@ http://localhost:5173
 - Botones CTA (Call-to-Action)
 - Efectos parallax en mousemove
 
-### AdsCarousel Component
+### Carousel Component
 - Scroll horizontal automático
 - Controles de navegación (flechas)
 - Tarjetas con efecto blur/scale

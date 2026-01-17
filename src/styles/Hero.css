@@ -117,7 +117,7 @@
   display: flex;
   gap: 1rem;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;   /* ✅ FORZAR UNA SOLA FILA */
   margin: 3rem 0;
   animation: slideUp 0.8s ease-out 0.4s backwards;
 }

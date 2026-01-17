@@ -22,6 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+<<<<<<< HEAD
 # Logs
 logs
 *.log
@@ -163,3 +164,5 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+=======
+>>>>>>> 3f6d8b43aa82af2a764f36e6c8912219496b3ba4

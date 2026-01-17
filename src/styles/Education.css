@@ -1,0 +1,93 @@
+.education-section {
+  width: 100%;
+}
+
+.education-intro {
+  text-align: center;
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto 3rem;
+  opacity: 0.9;
+}
+
+.education-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem;
+}
+
+.education-card {
+  background: linear-gradient(135deg, rgba(26, 77, 46, 0.35), rgba(26, 61, 46, 0.35));
+  border-radius: 20px;
+  padding: 2.5rem;
+  border: 1px solid rgba(0, 255, 200, 0.25);
+  transition: all 0.4s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.education-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 40px rgba(0, 255, 200, 0.3);
+  border-color: #00ffc8;
+}
+
+.education-card h3 {
+  color: #00ffc8;
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+}
+
+.education-card p {
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+.education-list {
+  margin: 1.5rem 0;
+  padding-left: 1.2rem;
+  list-style: none;
+}
+
+.education-list li {
+  margin-bottom: 0.6rem;
+  position: relative;
+  padding-left: 0;
+}
+
+.education-list li::before {
+  content: '✓';
+  color: #00ffc8;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.education-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.education-card.highlight {
+  background: linear-gradient(135deg, rgba(0, 200, 83, 0.25), rgba(0, 212, 255, 0.25));
+  border: 2px solid #00ffc8;
+}
+
+@media (max-width: 650px) {
+  .education-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .education-card {
+    padding: 2rem;
+  }
+
+  .education-card h3 {
+    font-size: 1.4rem;
+  }
+
+  .education-intro {
+    font-size: 1rem;
+  }
+}

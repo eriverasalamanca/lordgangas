@@ -1,0 +1,134 @@
+.whatsapp-section {
+  background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+  border-radius: 25px;
+  padding: 3rem 2rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  box-shadow: 0 15px 50px rgba(37, 211, 102, 0.4);
+  position: relative;
+  overflow: hidden;
+}
+
+.whatsapp-section::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+  animation: rotate 20s linear infinite;
+}
+
+.whatsapp-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.whatsapp-subtitle {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+}
+
+.qr-container {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 20px;
+  display: inline-block;
+  margin: 2rem 0;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  position: relative;
+  z-index: 1;
+  border: 3px solid #00d4ff;
+}
+
+.qr-label {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #21c063;
+}
+
+.qr-code {
+  width: 280px;
+  height: 280px;
+  background: linear-gradient(135deg, #f0f0f0 0%, #ffffff 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  color: #333;
+  border-radius: 10px;
+  border: 2px solid #00c853;
+}
+
+.qr-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.qr-instruction {
+  margin-top: 1rem;
+  color: #21c063;
+}
+
+.whatsapp-benefits {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.benefit-item {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1.5rem;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.benefit-item h4 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #00d4ff;
+}
+
+.whatsapp-btn {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  padding: 1.2rem 3rem;
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .whatsapp-section {
+    padding: 2rem 1rem;
+  }
+
+  .whatsapp-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .qr-container {
+    padding: 1.5rem;
+  }
+
+  .qr-code {
+    width: 220px;
+    height: 220px;
+  }
+
+  .whatsapp-benefits {
+    grid-template-columns: 1fr;
+  }
+}

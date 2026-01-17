@@ -1,0 +1,130 @@
+.social-section {
+  width: 100%;
+}
+
+.social-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.social-card {
+  background: linear-gradient(135deg, rgba(26, 77, 46, 0.4) 0%, rgba(26, 61, 46, 0.4) 100%);
+  border: 2px solid transparent;
+  border-radius: 20px;
+  padding: 0.5rem;
+  text-align: center;
+  transition: all 0.4s ease;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 400px;
+}
+
+.social-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(0, 255, 200, 0.1), transparent);
+  transition: left 0.6s ease;
+}
+
+.social-card:hover::before {
+  left: 100%;
+}
+
+.social-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  border-color: #00ffc8;
+  box-shadow: 0 15px 40px rgba(0, 255, 200, 0.3);
+  background: linear-gradient(135deg, rgba(26, 77, 46, 0.6) 0%, rgba(26, 61, 46, 0.6) 100%);
+}
+
+.social-icon {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+  filter: drop-shadow(0 5px 15px rgba(0, 255, 200, 0.3));
+}
+
+.social-icon svg {
+  width: 80px;
+  height: 80px;
+  filter: drop-shadow(0 5px 15px rgba(0, 255, 200, 0.3));
+}
+
+.social-card h3 {
+  color: #00ffc8;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+.social-handle {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  color: #00ffc8;
+}
+
+.social-stats {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 1.5rem 0;
+  flex-wrap: wrap;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat-number {
+  font-size: 2rem;
+  font-weight: bold;
+  background: linear-gradient(135deg, #7bed9f 0%, #00d4ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  color: #00ffc8;
+  opacity: 0.8;
+  margin-top: 0.3rem;
+}
+
+.social-detail {
+  color: #00d4ff;
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  flex-grow: 1;
+}
+
+.social-detail:last-of-type {
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .social-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .social-card {
+    padding: 2rem;
+  }
+
+  .social-icon svg {
+    width: 60px;
+    height: 60px;
+  }
+
+  .social-card h3 {
+    font-size: 1.5rem;
+  }
+}

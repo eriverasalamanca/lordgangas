@@ -1,0 +1,153 @@
+.ads-section {
+  overflow: hidden;
+}
+
+.ads-subtitle {
+  text-align: center;
+  font-size: 1.1rem;
+  opacity: 0.9;
+  margin-bottom: 2rem;
+}
+
+.ads-wrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.ads-carousel {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.ads-carousel::-webkit-scrollbar {
+  height: 6px;
+}
+
+.ads-carousel::-webkit-scrollbar-track {
+  background: rgba(0, 255, 200, 0.1);
+}
+
+.ads-carousel::-webkit-scrollbar-thumb {
+  background: rgba(0, 255, 200, 0.3);
+  border-radius: 3px;
+}
+
+.ads-track {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 0 calc(50vw - 130px);
+}
+
+.ad-card {
+  width: 260px;
+  aspect-ratio: 1 / 1;
+  border-radius: 18px;
+  overflow: hidden;
+  flex-shrink: 0;
+  background: #000;
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
+  opacity: 0.5;
+  filter: blur(2px);
+  transform: scale(0.85);
+  transition: all 0.5s ease;
+  position: relative;
+  display: block;
+}
+
+.ad-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ad-card.active {
+  opacity: 0.95;
+  filter: blur(0);
+  transform: scale(0.95);
+  z-index: 2;
+}
+
+.ad-card.active:hover {
+  transform: scale(1.25);
+  opacity: 1;
+  filter: drop-shadow(0 10px 30px rgba(0, 255, 200, 0.5));
+}
+
+.ad-card[data-tooltip]::before {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.9);
+  color: #00ffc8;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  margin-bottom: 8px;
+  z-index: 10;
+  border: 1px solid #00ffc8;
+}
+
+.ad-card[data-tooltip]:hover::before {
+  opacity: 1;
+}
+
+.ads-arrow {
+  position: relative;
+  background: rgba(0, 0, 0, 0.6);
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 5;
+  flex-shrink: 0;
+  transition: all 0.3s ease;
+}
+
+.ads-arrow:hover {
+  background: rgba(0, 0, 0, 0.85);
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .ads-carousel {
+    height: 280px;
+  }
+
+  .ad-card {
+    width: 200px;
+  }
+
+  .ads-track {
+    padding: 0 calc(50vw - 100px);
+  }
+
+  .ads-arrow {
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+  }
+}

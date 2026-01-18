@@ -25,9 +25,10 @@ const Carousel: React.FC = () => {
     },
     {
       id: 2,
-      image: '/didi.png',
-      alt: 'Didi',
-      link: 'https://d.didiglobal.com/OEEM7ZM?r=MGM_homepage_icon&c=M3',
+      image: '/demon.png',
+      alt: 'Demon Slyer',
+      link: 'https://wa.me/525586085191?text=Quiero%20comprar%20el%20BOXSET%2C%20lo%20vi%20en%20Lord%20Gangas%20%F0%9F%94%A5%F0%9F%93%A6',
+      tooltip: 'Demon Slyer',
     },
     {
       id: 3,
@@ -59,10 +60,9 @@ const Carousel: React.FC = () => {
     },
     {
       id: 7,
-      image: '/demon.png',
-      alt: 'Demon Slyer',
-      link: 'https://wa.me/525586085191?text=Quiero%20comprar%20el%20BOXSET%2C%20lo%20vi%20en%20Lord%20Gangas%20%F0%9F%94%A5%F0%9F%93%A6',
-      tooltip: 'Demon Slyer',
+      image: '/didi.png',
+      alt: 'Didi',
+      link: 'https://d.didiglobal.com/OEEM7ZM?r=MGM_homepage_icon&c=M3',
     },
     {
       id: 8,

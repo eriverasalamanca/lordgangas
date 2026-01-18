@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { Analytics } from "@vercel/analytics/react";
 import './styles/globals.css';
 import './App.css';
 
@@ -16,7 +17,6 @@ import Footer from './components/Footer';
 
 function App() {
   useEffect(() => {
-    // Agregar partículas flotantes
     const particlesContainer = document.querySelector('.floating-particles');
     if (particlesContainer && particlesContainer.children.length === 0) {
       for (let i = 0; i < 10; i++) {
@@ -66,6 +66,9 @@ function App() {
 
         <Footer />
       </div>
+
+      {/* 👇 Analytics debe ir aquí */}
+    <Analytics />
     </>
   );
 }

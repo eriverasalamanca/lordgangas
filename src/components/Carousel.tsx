@@ -41,7 +41,7 @@ const Carousel: React.FC = () => {
       id: 4,
       image: '/xnanofhd.png',
       alt: 'Proyector XNano FHD',
-      link: 'https://mercadolibre.com/sec/2JbWfqv',
+      link: 'https://mercadolibre.com/sec/2vjQtJg',//https://mercadolibre.com/sec/2JbWfqv
       tooltip: 'Proyector XNano FHD Nativo con Dolby Audio',
     },
     {

@@ -23,8 +23,8 @@ const Social: React.FC = () => {
       handle: '@lord.gangas.descuentos',
       description: '🎯 Ofertas y Gangas sin filtro',
       stats: [
-        { number: '2,000+', label: 'Seguidores' },
-        { number: '900+', label: 'Me gusta' },
+        { number: '2,000+', label: 'Seguidores' }, // Seguidores
+        { number: '900+', label: 'Me gusta' },     // Número de likes 
       ],
       link: 'https://www.tiktok.com/@lord.gangas.descuentos',
       details: ['Videos diarios con las mejores ofertas'],

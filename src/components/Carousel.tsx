@@ -21,7 +21,7 @@ const Carousel: React.FC = () => {
       id: 1,
       image: '/aby.png',
       alt: 'Dra Albina',
-      link: 'https://wa.me/524921115006?text=Vi%20tu%20publicidad%20en%20Lord%20Gangas',
+      link: 'https://wa.me/524921115006?text=Vi%20tu%20publicidad%20en%20Lord%20Gangas%2C%20quiero%20agentar%20una%20cita%20por%20favor.',
     },
     
     {

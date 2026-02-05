@@ -51,7 +51,7 @@ const Hero: React.FC = () => {
           <button className="btn btn-primary" onClick={() => scrollToSection('.social-grid')}>
             Síguenos en Redes
           </button>
-          <button className="btn btn-primary" onClick={() => scrollToSection('.education-intro')}>  
+          <button className="btn btn-primary" onClick={() => scrollToSection('.education-card')}>  
             Apostamos por la Educación
           </button>
         </div>
